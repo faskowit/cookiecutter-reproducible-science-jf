@@ -8,8 +8,6 @@ Project Organization
 
     .
     ├── AUTHORS.md
-    ├── LICENSE
-    ├── README.md
     ├── bin
     ├── config
     ├── data
@@ -18,12 +16,14 @@ Project Organization
     │   ├── processed
     │   └── raw
     ├── docs
-    ├── notebooks
+    ├── LICENSE
+    ├── README.md
     ├── reports
     │   └── figures
     └── src
-        ├── data
+        ├── analysis
         ├── external
-        ├── models
-        ├── tools
-        └── visualization
+        ├── funcs
+        ├── processing
+        ├── scripts
+        └── viz
