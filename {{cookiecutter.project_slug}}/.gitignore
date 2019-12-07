@@ -102,3 +102,6 @@ bin/
 
 # exclude external models from source control
 /src/external/
+
+# exclude reports pdf, since out scripts will generate those
+/reports/pdf/
