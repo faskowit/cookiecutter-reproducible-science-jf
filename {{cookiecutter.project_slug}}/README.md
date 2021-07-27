@@ -8,8 +8,8 @@ Project Organization
 
     .
     ├── AUTHORS.md
-    ├── bin
     ├── config
+    │   └── config_template.md 
     ├── data
     │   ├── external
     │   ├── interim
@@ -21,9 +21,11 @@ Project Organization
     ├── reports
     │   └── figures
     └── src
-        ├── analysis
-        ├── external
-        ├── funcs
-        ├── processing
-        ├── scripts
+        ├── anlyz
+        ├── ext
+        ├── func
+        ├── proc
+        ├── script
         └── viz
+
+    16 directories, 4 files
