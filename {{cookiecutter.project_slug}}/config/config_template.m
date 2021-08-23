@@ -1,7 +1,7 @@
 %% PROJECT CONFIG
 
-PROJECT_DIR = pwd ; % put base path to project her
-cd(PROJECT_DIR)
+PROJ_DIR = pwd ; % put base path to project her
+cd(PROJ_DIR)
 
 %% add to the path
 
@@ -12,7 +12,7 @@ projPathDirs = {
 } ;
 
 for idx=1:length(projPathDirs)
-    addpath(genpath(strcat(PROJECT_DIR,'/',projPathDirs{idx})))
+    addpath(genpath(strcat(PROJ_DIR,'/',projPathDirs{idx})))
 end
 
 clear projPathDirs
@@ -23,6 +23,7 @@ OUTSTR = 'run1' ;
 
 %% make output directory vars
 
-OUTDIR = strcat(PROJECT_DIR , '/data/') ; 
-OUTDIR_INTERM = strcat(OUTDIR, '/interim/' ) ;
-OUTDIR_PROC = strcat(OUTDIR, '/processed/' ) ;
+DATADIR = strcat(PROJ_DIR , '/data/') ; 
+DD_INTERM = strcat(DATADIR, '/interim/' ) ;
+DD_PROC = strcat(DATADIR, '/processed/' ) ;
+DD_RAW = strcat(DATADIR, '/processed/' ) ;
