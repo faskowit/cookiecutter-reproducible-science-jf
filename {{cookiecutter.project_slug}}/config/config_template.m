@@ -5,8 +5,8 @@ cd(PROJ_DIR)
 
 %% add to the path
 
-projPathDirs = { 
-    'src' 
+projPathDirs = {
+    'src'
     'data'
     'bin'
 } ;
@@ -23,7 +23,7 @@ OUTSTR = 'run1' ;
 
 %% make output directory vars
 
-DATADIR = strcat(PROJ_DIR , '/data/') ; 
+DATADIR = strcat(PROJ_DIR , '/data/') ;
 DD_INTERM = strcat(DATADIR, '/interim/' ) ;
 DD_PROC = strcat(DATADIR, '/processed/' ) ;
-DD_RAW = strcat(DATADIR, '/processed/' ) ;
+DD_RAW = strcat(DATADIR, '/raw/' ) ;
