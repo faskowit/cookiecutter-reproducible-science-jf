@@ -1,7 +1,9 @@
 %% PROJECT CONFIG
 
-PROJ_DIR = pwd ; % put base path to project her
+[a,b] = fileparts(pwd) ; 
+PROJ_DIR = a ; % put base path to project here
 cd(PROJ_DIR)
+clear a b
 
 %% add to the path
 
@@ -19,11 +21,11 @@ clear projPathDirs
 
 %% setup global vars
 
-OUTSTR = 'run1' ;
+OUTSTR = 'sch200' ;
 
 %% make output directory vars
 
 DATADIR = strcat(PROJ_DIR , '/data/') ;
-DD_INTERM = strcat(DATADIR, '/interim/' ) ;
-DD_PROC = strcat(DATADIR, '/processed/' ) ;
-DD_RAW = strcat(DATADIR, '/raw/' ) ;
+DD.INTERM = strcat(DATADIR, '/interim/' ) ;
+DD.PROC = strcat(DATADIR, '/processed/' ) ;
+DD.RAW = strcat(DATADIR, '/raw/' ) ;
